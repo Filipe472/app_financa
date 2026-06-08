@@ -1,0 +1,94 @@
+. Identificação Do Projeto
+
+O projeto desenvolvido é um aplicativo chamado FM Finanças, criado com o objetivo de auxiliar usuários no controle de suas despesas pessoais. A aplicação foi construída utilizando React Native com Expo, permitindo sua execução tanto em dispositivos móveis quanto em ambiente web.
+
+2. Objetivo
+
+O objetivo principal do aplicativo é oferecer ao usuário uma ferramenta simples, intuitiva e funcional para registrar, consultar e acompanhar seus gastos. A proposta é facilitar a organização financeira pessoal, permitindo que o usuário tenha uma visão geral de suas despesas por categoria e período.
+
+3. Justificativa
+
+A organização financeira é uma necessidade comum no dia a dia. Muitas pessoas têm dificuldade em acompanhar pequenos gastos, identificar onde estão gastando mais e manter um controle mensal eficiente.
+
+Dessa forma, o aplicativo FM Finanças foi desenvolvido como uma solução prática para registrar despesas e visualizar informações relevantes de forma rápida, contribuindo para uma melhor gestão financeira pessoal.
+
+4. Tecnologias Utilizadas
+
+Para o desenvolvimento do projeto, foram utilizadas as seguintes tecnologias:
+
+React Native: framework utilizado para construção da interface do aplicativo.
+Expo: ferramenta que facilita a execução e testes da aplicação em celular e navegador.
+JavaScript: linguagem principal usada no desenvolvimento.
+React Navigation: biblioteca utilizada para navegação entre telas.
+AsyncStorage: recurso usado para armazenar dados localmente.
+React Native Chart Kit: biblioteca usada para exibir gráficos.
+Material Icons: biblioteca de ícones usada na interface.
+5. Estrutura Do Aplicativo
+
+O aplicativo foi organizado em telas, componentes, serviços e constantes, facilitando a manutenção e compreensão do código.
+
+As principais telas são:
+
+Tela de Login: permite que o usuário acesse o aplicativo com e-mail e senha.
+Tela de Cadastro: permite criar uma conta informando nome, e-mail e senha.
+Tela Inicial: apresenta o resumo financeiro, filtros, gráfico e lista de despesas.
+Tela de Nova Despesa: permite cadastrar uma nova despesa.
+6. Funcionamento Do Sistema
+
+Ao abrir o aplicativo, o usuário é direcionado para a tela de login. Caso ainda não possua conta, pode acessar a opção Criar conta. Após finalizar o cadastro, o usuário retorna para a tela de login e pode entrar no sistema.
+
+Dentro do aplicativo, o usuário pode cadastrar despesas informando valor, descrição, data e categoria. As despesas cadastradas aparecem na tela inicial, onde também é possível visualizar o total gasto, quantidade de despesas, categoria com maior gasto e gráfico de despesas por categoria.
+
+Além disso, o aplicativo possui filtros por categoria e por período, facilitando a análise dos gastos. Também foi implementado um botão de sair, que retorna o usuário para a tela de login.
+
+7. Funcionalidades Implementadas
+
+As funcionalidades desenvolvidas foram:
+
+Cadastro de usuário.
+Login de usuário.
+Logout do aplicativo.
+Cadastro de despesas.
+Listagem de despesas.
+Exclusão de despesas.
+Filtro por categoria.
+Filtro por período.
+Cálculo do total de gastos.
+Identificação da categoria com maior gasto.
+Exibição de gráfico por categoria.
+Armazenamento local dos dados.
+Rolagem nas telas para melhor navegação.
+8. Categorias De Despesas
+
+O aplicativo permite classificar os gastos nas seguintes categorias:
+
+Alimentação
+Transporte
+Lazer
+Saúde
+Educação
+Moradia
+Vestuário
+Contas
+Outros
+Essa separação permite ao usuário identificar com mais clareza onde está concentrando seus gastos.
+
+9. Armazenamento Dos Dados
+
+O armazenamento é feito localmente utilizando AsyncStorage. Isso permite que os dados permaneçam salvos no dispositivo ou navegador mesmo após fechar o aplicativo.
+
+Foram armazenadas duas informações principais:
+
+Dados do usuário cadastrado.
+Lista de despesas registradas.
+Como o projeto tem finalidade acadêmica, o armazenamento local atende ao objetivo proposto. Em uma versão profissional, seria recomendado utilizar um banco de dados com autenticação segura.
+
+10. Interface E Usabilidade
+
+A interface foi desenvolvida com tema escuro, cards informativos, ícones e botões destacados. O objetivo foi criar uma experiência visual simples e moderna.
+
+A navegação foi pensada para ser direta:
+
+Login → Cadastro → Login → Tela Inicial → Cadastro de Despesas
+
+A tela inicial concentra as principais informações financeiras, permitindo que o usuário acompanhe seus gastos de maneira rápida.
